@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #bddfd5;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+    font-family:  sans-serif,serif, cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+    
+}
+.navbar .navbar-brand {
+    position: relative;
+    padding-left: 578px;
+}
+.table-hover .table-danger:hover, .table-hover .table-danger:hover>td, .table-hover .table-danger:hover>th {
+    background-color: #ef90c6;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #70c1e5;
+}
+#t1{
+    border-collapse: collapse;
+    margin-top: 64px;
+    width: 160%;
+    height: 89px;
+    margin-left: -89px;
+    border: 2px solid black;
+}
+#t1 td, #t1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#t1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+#t1 tr:hover {background-color: #ddd;}
+  
+#t1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #929ee4;
+    color: rgb(12, 12, 12);
+}
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(136 95 171)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(67, 83, 230)!important;
+}
