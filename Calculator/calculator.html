@@ -1,0 +1,67 @@
+<!-- Calculator.html (run on browswer) -->
+
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calci.css">
+<script>
+alert("Welcome to My calculator!! ");
+
+function call()
+{
+var n1=parseInt(document.f1.t1.value);
+var n2=parseInt(document.f1.t2.value);
+var d=document.f1.c1.value;
+//var c=document.getParametersByName("c1").value;
+	if(d=="add")
+	{
+	var sum=n1+n2;
+	document.f1.t3.value = sum;
+	}
+	if(d=="sub")
+	{var sum=n1-n2;
+	document.f1.t3.value = sum;
+	}
+if(d=="mul")
+	{var sum=n1*n2;
+	document.f1.t3.value = sum;
+	}
+	if(d=="div")
+	{var sum=n1/n2;
+	document.f1.t3.value = sum;
+	}
+}
+
+
+</script>
+</head>
+<body>
+<form name="f1">
+<h1>My Calculator</h1>
+<hr>
+
+Enter first no: <input type="text" id="inp" name ="t1" placeholder="Enter First number">
+<br>
+Enter Second no:<input type="text" name="t2" placeholder="Enter Second number">
+<br>
+<input type ="radio"  name="c1" value="add">+
+<br>
+<input type ="radio"  name="c1" value="sub">-
+<br>
+<input type ="radio"  name="c1" value="mul">*
+<br>
+<input type ="radio"  name="c1" value="div">/
+<br>
+<input type="button" value ="Calculate" onclick="call()">
+
+
+<br>
+<br>
+Result:<input type="text" name="t3" placeholder="Result"><br>
+<button type="reset" id="Clear">Clear</button>
+<hr>
+<footer>Designed By- Mayank Gujrati</footer>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+ background-image: url('pu3.jpg');
+ background-repeat: no-repeat;
+background-color:yellow;
+ background-position: center;
+ background-position:400px 300px;
+
+}
+
+footer{
+	padding-top:230px;
+}
+
+h1{
+	font-size:50px;
+	color:orange;
+	
+}
+a{
+	padding-right:30px;
+	font-size:25px;
+}
+
+.email{
+	
+	padding-left:800px;
+	color:red;
+	
+}

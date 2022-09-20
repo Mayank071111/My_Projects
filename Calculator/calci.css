@@ -1,0 +1,46 @@
+ h1{
+    text-align: center;
+    text-decoration: solid;
+    background-color: blue;
+    color: white;
+    text-decoration:overline red;
+    
+}
+form{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 2px;
+    border-style: dashed;
+    width:380px;
+    padding: 30px;
+}
+body{
+    text-align: center;
+    background-color: skyblue;
+    padding-left: 450px;
+    margin-top: 20px;
+    
+    
+}
+input{
+    margin:5px;
+    background-color: #e9cdcd;
+    border: 1px rgb(158, 182, 209);
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+#inp{
+    margin-left: 23px;
+}
+
+#clear{
+    margin-top: 20px;
+    background-color: #e9cdcd;
+    border: 1px rgb(158, 182, 209);
+    border-radius: 5px;
+}
+footer{
+    margin-top: 10px;
+    color: #e9530b;
+}

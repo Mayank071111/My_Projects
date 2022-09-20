@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    /* background-image: url('bimg1.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav img {
+    float: left;
+    width: 62px;
+
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    margin-top: -40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(137, 179, 196);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.topnav input[type=text] {
+    padding: 8px;
+    display: block;
+    margin-left: 353px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding-right: 204px;
+    font-size: 17px;
+    background-image: url(searchicon.png);
+    background-position: 383px 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 22%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}

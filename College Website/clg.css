@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bck{
+   padding-top: 15px; 
+   
+}
+#bck img{
+    opacity: 0.5;
+}
+#bscoer{
+    float: left;
+}
+#naac{
+    float:right;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #cee512;
+    margin-left: 108px;
+    
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+li{
+    float:left;
+    padding-left: 19px;
+    margin-right: 125px;
+    list-style:none;
+    margin-top: 25px;  
+    
+}
+a{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 5px;   
+}
+.bottom-left {
+    list-style-type: circle;
+    background-color: #cee512;
+    width: 185px;
+    
+}
+p{
+    font-weight: 200;
+}
+#list1{
+    color:red;
+    list-style: unset;
+    float: none;
+    margin-left: 14px;   
+}
+#form{
+    width: 380px;
+    position: absolute;
+    left: 250px;
+    bottom: 10px;
+    top: 943px;
+   
+}
+input{
+    margin-left: 16px;
+    padding-left: 23px;
+}
+button{
+    padding: 4px;
+}
+h4{
+    margin-left: 104px;
+}

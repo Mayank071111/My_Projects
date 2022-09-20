@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVS - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        #imagePart{
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 10px;
+            width: 50%;
+        }
+
+        #role{
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 10px;
+            width: 50%;
+        }
+
+    </style>
+
+    <img src="OVS_logo.jpg" alt="OVS LOGO">
+
+    <div id="headerSection">
+        <h1>Online Voting System</h1>
+    </div>
+    
+    <hr>
+    <div id="bodySection">
+        <h3>Registration</h3>
+        <br>
+        <form action="api/register.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Enter Name">
+            <input type="number" name="mobile" placeholder="Enter Mobile Number">
+            <br><br>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="password" name="cpassword" placeholder="Confirm Password">
+            <br><br>
+            <input type="text" name="address" placeholder="Enter Address">
+            <br><br>
+            <center>
+            <div id="imagePart">
+                Upload Image: <input type="file" name="photo">
+            </div>
+            
+            <br><br>
+            <div id="role">
+                Select Role: <select name="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Group</option>
+                </select>
+            </div>
+            </center>
+            <br><br>
+            <button>Register</button>
+            <br><br>
+            Already a User? <a href="index.html">Login Here</a>
+        </form>
+    </div>
+    
+</body>
+</html>

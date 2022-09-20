@@ -1,0 +1,249 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.menubar {
+    background-color: #D3D3D3;
+    color: white;
+    width: 15vw;
+    height: 110vh;
+    display: flex;
+}
+
+.menubar ul li {
+    margin: 37px 32px;
+    padding: 7px 31px;
+
+}
+
+.menubar ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+    font-size: 22px;
+    margin-top: 90px;
+}
+
+.menubar li:hover {
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.maincontainer {
+    background-color: yellow;
+    color: black;
+    width: 85vw;
+}
+
+.centerbox {
+    background-color: pink;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.im img {
+    width: 250px;
+    border-radius: 190px;
+    margin-top: 45px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hello {
+    font-size: 55px;
+}
+
+.name {
+    font-size: 50px;
+    font-family: sans-serif, serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 28px;
+}
+
+.button button {
+    color: white;
+    background-color: blue;
+    text-align: left;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 21px;
+}
+
+.button button:hover {
+    color: blue;
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+/* .footer {
+    text-align: center;
+    color: black;
+    /* background-color: #D3D3D3; */
+    /* font-size: 16px; */
+
+/* } */ 
+
+.email {
+    
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.mobile {
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.location {
+    font-size: 20px;
+    margin-top: 23px;
+}
+.contact{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+.contactinfo{
+    margin: 200px 40px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 56px;
+}
+.socialmedia{
+    display: inline-block;
+    margin-left: 436px;
+    padding: 17px 11px;
+    padding-left: 16px;
+    text-align: center;
+    border: 3px solid black;
+}
+.socialmedia a{
+    display: block;
+    margin-top: 10px;
+    
+   
+}
+.skills1,.skills3,.skills6{
+    background-color: green;
+    width: 374px;
+    border: 2px solid black;
+    margin-right: 93px;
+    margin-right: 101px;
+    display: inline-block;
+    margin-top: 10px;
+    color:white;
+}
+.skills2,.skills5{
+    background-color: red;
+    width: 300px;
+    border: 2px solid black;
+    margin-right: 93px;
+    margin-right: 101px;
+    margin-top: 10px;
+   
+}
+.skills4{
+    background-color: rgb(51, 223, 171);
+    width: 360px;
+    border: 2px solid black;
+    margin-right: 93px;
+    margin-right: 101px;
+    margin-top: 10px;
+    color:white;
+}
+.skills7{
+    background-color: rgb(233, 28, 223);
+    width: 250px;
+    border: 2px solid black;
+    margin-right: 93px;
+    margin-right: 101px;
+    margin-top: 10px;
+    color:white;
+   
+}
+.experiences{
+
+}
+
+.MyProjects{
+    display: flex;
+    float: right;
+    
+}
+.MyProjects li{
+   font-size: 12px;
+}
+.serviceimg img{
+    width: 800px;
+    margin-top: 68px;
+    margin-left: 88px;
+}
+.serviceimg video{
+    width: 800px;
+    margin-top: 68px;
+    margin-left: 88px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.fa-youtube {
+    background: #125688;
+    color: white;
+    font-size: 20px;
+  }
