@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "AI Chatbot Helper",
+    "version": "1.0",
+    "description": "Grammar checker and reply suggestion chatbot.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["https://api.openai.com/*", "https://api.languagetool.org/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
